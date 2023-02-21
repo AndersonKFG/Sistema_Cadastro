@@ -1,0 +1,100 @@
+.container_login{
+    height: 550px;
+    width: 30%;
+    background-color: lightgreen;
+    margin-top: 75px;
+    margin-left: 15%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.container_cadastro{
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.container_mae{
+    display: flex;
+    flex-direction: row;
+}
+
+.bem-vindo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40%;
+    color: white;   
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.entre-na{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    color: white;   
+    font-family: 'Oswald', sans-serif;
+}
+
+.log-in{
+    background-color: rgb(111, 184, 111);
+    border-color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 25%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    color: green;   
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.posicionamento_cadastro{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+}
+
+.inputs{
+    border-radius: 5px;
+    border-width: 2px;
+    width: 250px;
+    text-align: center;
+    height: 25px;
+}
+
+.Concluir_cadastro{
+    border-radius: 20px ;
+    background-color: rgb(111, 184, 111);
+    border-color: green;
+    width: 200px;
+    height: 50px;   
+    font-size: 25px;
+    border-width: 3px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+}
+
+.pai{
+    display: flex;
+}
+
+.botao_entrar{
+    display: flex;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}

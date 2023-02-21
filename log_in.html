@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrar</title>
+
+    <link rel="stylesheet" href="../CSS/login.css">
+
+    <div name="Fonts">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    </div>
+</head>
+<body bgcolor="lightgray">
+    <main>
+        <div class="container_mae">
+            <div class="container_cadastro">
+                <div class="titulo_cadastrar">Cadastrar</div>
+                <div class="subtitulo_cadastrar">Ainda não possui uma conta?<br>Clique no botão abaixo para criar uma conta.</div>
+
+                <form action="index.html" method="get" style="padding-top:30px ;">
+                    <button class="log-in" type="submit">Cadastrar</button>
+                </form>
+            </div>
+            
+            <form action="../PHP/login.php" method="post">
+                <div class="container_login">
+                    <h1>Entrar</h1>
+
+                    <legend style="margin-top: 50px;">Digite o seu email</legend><br>
+                    <input type="text" name="email_login">
+
+                    <legend style="margin-top: 50px;">Digite a sua senha</legend>
+                    <input type="password" name="senha_verificador"><br>
+
+                    <button>Fazer Login</button>
+
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>

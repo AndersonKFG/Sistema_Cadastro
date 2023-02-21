@@ -1,0 +1,94 @@
+.container_mae{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.container_cadastro{
+    background-color: lightgreen;
+    width: 450px;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    justify-content: center;
+}
+
+.container_login{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top:-20px;
+    
+}
+
+.titulo_cadastrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+    color: white;   
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.subtitulo_cadastrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    color: white;   
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.log-in{
+    background-color: white;
+    border-color: rgb(111, 184, 111);
+    width: 200px;
+    height: 50px;
+    margin-left: 25%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.login_titulo{
+    display: flex;
+    color: lightgreen;
+    text-align: center;
+}
+
+h1{
+    color: lightgreen;
+}
+
+input{
+    border-radius: 5px;
+    border-width: 2px;
+    width: 250px;
+    text-align: center;
+    height: 25px;
+}
+
+legend{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(111, 184, 111);
+    border-color: green;
+    width: 200px;
+    height: 50px;   
+    font-size: 25px;
+    border-width: 3px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+}
