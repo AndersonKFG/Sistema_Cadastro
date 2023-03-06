@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <div name="Fonts">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    </div>
+
+    <link rel="stylesheet" href="../CSS/cadastrar.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container_mae">
+            <div class="container_login">
+                <h1 class="bem-vindo">Bem-vindo!</h1>
+                <h3 class="entre-na">Bem-vindo de volta!<br> Caso ja tenha uma conta, entre-na.</h3>
+                <form action="log_in.html" method="get">
+                    <button class="log-in" type="submit">Entrar</button>
+                </form>
+            </div>
+
+            <form action="../PHP/cadastro.php" method="get">
+                <div class="container_cadastro">
+                    <h1 class="cadastrar">Cadastrar</h1>
+                    <div class="posicionamento_cadastro">
+                        <!--Input nome-->
+                        <div>
+                            <label>Digite seu nome:</label>
+                            <br>
+                            <input class="inputs" type="text" name="nome" required>
+                        </div>
+
+                        <!--Input senha-->
+
+                        <div>
+                            <label>Digite sua senha:</label>
+                            <br>
+                            <input class="inputs" type="password" name="senha" required>
+                        </div>
+
+                        <!--Input email-->
+                        <div>
+                            <label>Digite o seu email</label>
+                            <br>
+                            <input class="inputs" type="email" name="email" required>
+                        </div>
+
+                        <!--Input data de nascimento-->
+
+                        <div>
+                            <label>Coloque sua data de nascimento</label>
+                            <br>
+                            <input class="inputs" type="date" name="data_nascimento" required>
+                        </div>
+
+                        <!--Concluir cadastro-->
+                        <input class="Concluir_cadastro" type="submit" value="Cadastrar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

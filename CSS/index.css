@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right, red,orange,yellow,orange,red);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.div_mae{
+    margin-left: 18%;
+    margin-top: 5%;
+    background: linear-gradient(to right,  yellow,orange,red,orange,yellow);
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+:root{
+    --width-login-cadastrar: 270px;
+    --margin-login-cadastrar: 10px;
+    --height-login-cadastrar: 450px;
+}
+
+.login{
+    height: var(--height-login-cadastrar);
+    width: var(--width-login-cadastrar);
+    margin: var(--margin-login-cadastrar);
+    background: linear-gradient(to bottom, blue,cyan,lightblue,red);
+    animation: 15s ease infinite;
+    background-size: 300% 300%;
+    text-align: center;
+    border-radius: 20px;    
+}
+
+.cadastrar{
+    background: linear-gradient(to bottom, blue,cyan,lightblue,red);
+    /* animation: colors 10s ease infinite ; */
+    background-size: 300% 300%;
+    border-radius: 20px;
+    height: var(--height-login-cadastrar);
+    margin: var(--margin-login-cadastrar);
+    width: var(--width-login-cadastrar);
+    text-align: center;
+}
+
+.login_botao{
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background: blue;
+    transition-duration: 2s;
+    font-size: 15px;
+}
+
+.cadastro_botao{
+    font-family: 'Oswald', sans-serif;  
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background: blue;
+    transition-duration: 2s;
+    font-size: 15px;
+}
+
+.login_botao:hover,.cadastro_botao:hover{
+    cursor: pointer;
+    transition: 2s ;
+    background: lightgreen;
+    font-size: 30px;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
