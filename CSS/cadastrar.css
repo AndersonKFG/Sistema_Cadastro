@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(to right, red, orange, yellow);
+}
+
 .container_login{
     height: 550px;
     width: 30%;
@@ -19,6 +23,7 @@
 .container_mae{
     display: flex;
     flex-direction: row;
+
 }
 
 .bem-vindo{
@@ -43,12 +48,17 @@
 .log-in{
     background-color: rgb(111, 184, 111);
     border-color: white;
+    border-style: solid;
     width: 200px;
     height: 50px;
     margin-left: 25%;
     border-radius: 20px;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
+}
+
+.log-in:hover{
+    cursor: pointer;
 }
 
 .cadastrar{
@@ -78,18 +88,23 @@
 
 .Concluir_cadastro{
     border-radius: 20px ;
-    background-color: rgb(111, 184, 111);
-    border-color: green;
+    background: green;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
     width: 200px;
     height: 50px;   
     font-size: 25px;
-    border-width: 3px;
     font-family: 'Oswald', sans-serif;
     margin-top: 20px;
+    transition-duration: 1s;
 }
 
-.pai{
-    display: flex;
+.Concluir_cadastro:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    background: green;
+    border-color: red;
 }
 
 .botao_entrar{
